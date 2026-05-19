@@ -50,3 +50,6 @@ finance-coach/
 └── data/samples/
     └── sample_transactions.csv
 ```
+
+
+sk-ijklmnopabcd5678ijklmnopabcd5678ijklmnop
