@@ -1,0 +1,9 @@
+ModuleNotFoundError: No module named 'src'
+
+File "/home/hrudanandadas/projGandhi/projGandhi/lib64/python3.14/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+File "/home/hrudanandadas/projGandhi/projGandhi/lib64/python3.14/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+File "/home/hrudanandadas/projGandhi/app.py", line 15, in <module>
+    from src.parser.statement_parser import parse_statement, load_sample_data
