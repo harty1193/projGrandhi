@@ -10,7 +10,9 @@ import json
 import pandas as pd
 import streamlit as st
 
-sys.path.insert(0, os.path.dirname(__file__))
+APP_DIR = os.path.dirname(os.path.abspath(__file__))
+if APP_DIR not in sys.path:
+    sys.path.insert(0, APP_DIR)
 
 from src.parser.statement_parser import parse_statement, load_sample_data
 from src.categorizer.categorizer import categorize_dataframe, get_category_totals
