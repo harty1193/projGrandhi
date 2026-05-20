@@ -1,9 +1,12 @@
-ModuleNotFoundError: No module named 'src'
-
-File "/home/hrudanandadas/projGandhi/projGandhi/lib64/python3.14/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
-    result = func()
-File "/home/hrudanandadas/projGandhi/projGandhi/lib64/python3.14/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
-    exec(code, module.__dict__)  # noqa: S102
-    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
-File "/home/hrudanandadas/projGandhi/app.py", line 15, in <module>
-    from src.parser.statement_parser import parse_statement, load_sample_data
+Date,Time,Type,Amount,Details,Counterparty,Transaction ID,UTR
+2026-05-07,06:20 PM,CREDIT,1350,Received,SANKAR ROY,T2605071820471967537155,649311649541
+2026-05-02,05:54 PM,DEBIT,1,Payment,BAJAJ FINANCE LTD,OLEX2605021754015061457233,103219861734
+2026-05-01,06:03 AM,DEBIT,43301.74,Paid,CHEQ DIGITAL PRIVATE LIMITED,T2605010603245958265223,964810018364
+2026-05-01,02:38 AM,DEBIT,23680.3,Paid,CHEQ DIGITAL PRIVATE LIMITED,T2605010238477459702756,654140236489
+2026-05-01,02:30 AM,DEBIT,8514.5,Paid,CHEQ DIGITAL PRIVATE LIMITED,T2605010230020381743562,568798641687
+2026-05-01,02:25 AM,DEBIT,1639.23,Paid,CHEQ DIGITAL PRIVATE LIMITED,T2605010225319740729681,644610752570
+2026-05-01,02:24 AM,DEBIT,220.44,Paid,CHEQ DIGITAL PRIVATE LIMITED,T2605010223565162175050,379338020558
+2026-04-30,08:13 PM,CREDIT,2500,Received,SRADDHA MANJARI DAS,T2604302013145533413988,648630261225
+2026-04-30,02:50 PM,CREDIT,2000,Received,JAGAT RANJAN DAS,T2604301450147946523387,090844570330
+2026-04-20,03:19 PM,CREDIT,5000,Received,RUCHIKA MISHRA,T2604201519242336497414,647623541188
+``
